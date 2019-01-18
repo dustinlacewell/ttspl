@@ -1,0 +1,9 @@
+local List = require("ttspl/list")
+local pretty = require("ttspl/pretty")
+
+function onChat()
+    local bar = List()
+    bar:append("biz")
+    bar:append("baz")
+    pretty.dump(bar)
+end 
